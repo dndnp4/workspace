@@ -1,3 +1,9 @@
+/**
+ * AWS bastion server 를 이용하여 private network 에 접속할 때 이용함.
+ * 아래 코드는 bastion 에서 private 영역의 mysql server 로 tunneling 한 후
+ * bastion local 에서 mysql server로 접속을 시도하는 상황
+ */
+
 const fs = require('fs');
 const mysql = require('mysql');
 const path = require('path');
